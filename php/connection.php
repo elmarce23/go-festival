@@ -1,0 +1,5 @@
+<?php
+
+String hola = "Mundo";
+
+?>
