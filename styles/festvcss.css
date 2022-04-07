@@ -1,0 +1,28 @@
+.btn_1 {
+    background: #7D0E40;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div_contanier {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.div_contanier::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.div_centered {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    vertical-align: middle;
+}
